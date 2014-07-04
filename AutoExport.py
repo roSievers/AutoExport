@@ -110,7 +110,7 @@ def batchExport(type, file, tupleLists):
                 export(curType, file, tuple)
         # Otherwise, just loop over the tuple list and export each type
         else:
-            export(type, file, id)
+            export(type, file, tuple)
             
 
 def export(type, file, idTuple):
